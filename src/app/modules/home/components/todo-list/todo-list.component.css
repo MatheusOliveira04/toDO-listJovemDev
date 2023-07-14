@@ -1,0 +1,53 @@
+section {
+    width: 100%;
+    min-height: 250px;
+    background: #f2f2f2; /* Substitua pelo valor da cor de fundo secundária */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+  }
+  
+  section.loading {
+    background-image: url("../../../../../assets/img/6742656.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  
+  section ul {
+    padding: 20px;
+  }
+  
+  section ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  section ul li input[type="checkbox"] {
+    width: 5%;
+  }
+  
+  section ul li input[type="text"] {
+    width: 80%;
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+    color: #000; /* Substitua pelo valor da cor do texto primário */
+  
+  }
+  
+  section ul li input[type="text"].checked {
+    text-decoration: line-through;
+  }
+  
+  section ul li button {
+    width: 5%;
+    background: none;
+    border: none;
+  }
+
+  section img{
+    width: 20px;
+    height: 20px;
+  }
